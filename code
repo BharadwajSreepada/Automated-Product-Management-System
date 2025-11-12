@@ -1,0 +1,125 @@
+# Importing required libraries
+import csv
+import sqlite3 as s3
+import pandas as pd
+import re
+import matplotlib.pyplot as plt
+
+# Establishing a connection to SQLite database
+knct = s3.connect("case_study.db")
+
+# Creating a table in the database if it does not already exist
+knct.execute('''CREATE TABLE IF NOT EXISTS Products(
+  SNo INTEGER,
+  Product TEXT,
+  Category TEXT,
+  Type TEXT,
+  Brand TEXT,
+  CostPrice INTEGER,
+  SellingPrice INTEGER,
+  Rating REAL,
+  Seasons TEXT);''')
+
+# Opening the CSV file to read its content
+file = open('/content/Prodlist.csv')
+content = csv.reader(file)
+
+# Preparing SQL statement for inserting data into the database
+values = "INSERT INTO Products (SNo, Product, Category, Type, Brand, CostPrice, SellingPrice, Rating, Seasons) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)"
+
+# Inserting data into the database using SQL statement prepared above
+knct.executemany(values, content)
+
+# Function to display the table data
+def showtable():
+  show = knct.execute('''SELECT * FROM Products;''')
+  print(
+    "SNo    Product    Category    Type    Brand   CostPrice    SellingPrice    Rating    Seasons    Profit"
+  )
+  print()
+  for i in show:
+    print(
+      str(i[0]) + '    ' + i[1] + '    ' + i[2] + '    ' + i[3] + '    ' +
+      i[4] + '    ' + str(i[5]) + '    ' + str(i[6]) + '    ' + str(i[7]) +
+      '    ' + i[8] + '    ' + str(i[9]))
+    print()
+
+# Adding a new column to the table
+knct.execute('''ALTER TABLE Products add Profit INTEGER AFTER SellingPrice;''')
+
+# Updating the Profit column of the table with values based on CostPrice and SellingPrice
+knct.execute('''UPDATE Products SET Profit = ROUND(SellingPrice-CostPrice, 2)''')
+
+# Converting the first letter of each word in the Seasons column to uppercase and the remaining letters to lowercase
+knct.execute('''UPDATE Products SET Seasons = UPPER(SUBSTR(Seasons, 1, 1)) || LOWER(SUBSTR(Seasons, 2))''')
+
+# Retrieving the Profit values for products sold in different seasons
+sum = knct.execute('''SELECT Profit FROM Products WHERE Seasons = 'Summer';''')
+win = knct.execute('''SELECT Profit FROM Products WHERE Seasons = 'Winter';''')
+spr = knct.execute('''SELECT Profit FROM Products WHERE Seasons = 'Spring';''')
+aut = knct.execute('''SELECT Profit FROM Products WHERE Seasons = 'Autumn';''')
+
+# Computing the total profit for each season
+sump = 0
+for product in sum:
+  sump += float(product[0])
+
+winp = 0
+for product in win:
+  winp += float(product[0])
+
+sprp = 0
+for product in spr:
+  sprp += float(product[0])
+
+autp = 0
+for product in aut:
+  autp += float(product[0])
+
+# Rounding off the total profit values for each season
+a, b, c, d = round(sump, 2), round(winp, 2), round(sprp, 2), round(autp, 2)
+
+# Computing the total profit for all seasons combined
+tp = a + b + c + d
+
+# Calculate the percentage of each product sold
+w = round((a / tp) * 100, 2)
+x = round((b / tp) * 100, 2)
+y = round((c / tp) * 100, 2)
+z = round((d / tp) * 100, 2)
+
+# Print the Products List in SQLite Tabular format
+showtable()
+print("\n----------------------------------------------------------------------\n")
+
+# Print the list of products in the store
+print("The Products list of a Store in a Month\n")
+s= ('''SELECT * FROM Products;''')
+df = pd.read_sql_query(s, knct)
+print(df)
+print("\n----------------------------------------------------------------------\n")
+
+# Count the number of products with a rating above 4.0
+k = ''
+rate = knct.execute('''SELECT Rating FROM Products''')
+for i in rate:
+  j = str(i[0])
+  k = k + ' ' + j
+l = re.findall(r'\b[4-5][.][0-9]\b', k)
+j=len(l)
+print(f"The Store has {j} products which has rating above 4.0")
+print("\n----------------------------------------------------------------------\n")
+
+# Create a pie chart showing the profits in different seasons
+slices = [w, x, y, z]
+activities = ['Summer', 'Winter', 'Spring', 'Autumn']
+cols = ['r', 'b', 'm', 'c']
+plt.pie(
+  slices,
+  labels=activities,
+  colors=cols,
+  shadow=True,
+  explode=(0, 0, 0.1, 0),
+  autopct='%1.1f%%')
+plt.title('Profits in different Seasons')
+plt.show()
