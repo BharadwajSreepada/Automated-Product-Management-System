@@ -1,0 +1,255 @@
+SNo    Product    Category    Type    Brand   CostPrice    SellingPrice    Rating    Seasons    Profit
+
+1    Garlic Oil - Vegetarian Capsule 500 mg    Beauty & Hygiene    Hair Oil & Serum    Sri Sri Ayurveda    220    220    4.1    Summer    0
+
+2    Water Bottle - Orange    Kitchen, Garden & Pets    Water & Fridge Bottles    Mastercook    180    180    2.3    Winter    0
+
+3    Brass Angle Deep - Plain, No.2    Cleaning & Household    Lamp & Lamp Oil    Trm    119    250    3.4    Autumn    131
+
+4    Cereal Flip Lid Container/Storage Jar - Assorted Colour    Cleaning & Household    Laundry, Storage Baskets    Nakoda    149    176    3.7    Spring    27
+
+5    Creme Soft Soap - For Hands & Body    Beauty & Hygiene    Bathing Bars & Soaps    Nivea    162    162    4.4    Winter    0
+
+6    Germ - Removal Multipurpose Wipes    Cleaning & Household    Disinfectant Spray & Cleaners    Nature Protect    169    199    3.3    Spring    30
+
+7    Multani Mati    Beauty & Hygiene    Face Care    Satinance    58    58    3.6    Summer    0
+
+8    Hand Sanitizer - 70% Alcohol Base    Beauty & Hygiene    Hand Wash & Sanitizers    Bionova    250    250    4.0    Autumn    0
+
+9    Biotin & Collagen Volumizing Hair Shampoo + Biotin & Collagen Hair Conditioner    Beauty & Hygiene    Shampoo & Conditioner    StBotanica    1098    1098    3.5    Autumn    0
+
+10    Scrub Pad - Anti- Bacterial, Regular    Cleaning & Household    Utensil Scrub-Pad, Glove    Scotch brite    20    20    4.3    Spring    0
+
+11    Wheat Grass Powder - Raw    Gourmet & World Food    Flours & Pre-Mixes    NUTRASHIL    261    290    4.0    Winter    29
+
+12    Butter Cookies Gold Collection    Gourmet & World Food    Luxury Chocolates, Gifts    Sapphire    600    600    2.2    Summer    0
+
+13    Face Wash - Oil Control, Active    Beauty & Hygiene    Face Care    Oxy    110    110    5.0    Autumn    0
+
+14    Mold & Mildew Remover with Bleach    Cleaning & Household    Floor & Other Cleaners    Clorox    350    350    3.8    Winter    0
+
+15    Just Spray - Mosquito Repellent Room Spray    Cleaning & Household    Mosquito Repellent    Herbal Strategi    200    200    4.2    Spring    0
+
+16    Dove Plastic Soap Case - Assorted Colour    Cleaning & Household    Soap Cases & Dispensers    Nakoda    49    59    4.0    Winter    10
+
+17    Smooth Skin Oil - For Dry Skin    Beauty & Hygiene    Aromatherapy    Aroma Treasures    324    360    5.0    Spring    36
+
+18    Salted Pumpkin    Gourmet & World Food    Roasted Seeds & Nuts    Graminway    180    180    4.9    Summer    0
+
+19    Flax Seeds - Roasted    Gourmet & World Food    Roasted Seeds & Nuts    True Elements    120    120    4.3    Spring    0
+
+20    Organic Tofu - Soy Paneer    Gourmet & World Food    Tofu    Murginns    85.14    90    3.9    Summer    4.86
+
+21    Ceramic Barrel Brush - Colour May Vary    Beauty & Hygiene    Tools & Accessories    Bronson Professional    525    700    4.2    Spring    175
+
+22    Instant Noodles - Chicken Satay Flavor    Gourmet & World Food    Imported Noodles    Koka    45    50    4.1    Autumn    5
+
+23    Chia Seeds    Foodgrains, Oil & Masala    Other Dry Fruits    NaturoBell    120    120    3.9    Winter    0
+
+24    Cleanse Green Tea - Whole Leaf Loose Tea    Gourmet & World Food    Gourmet Tea & Tea Bags    Cambridge Tea Party    75    75    3.9    Spring    0
+
+25    Veggie Cutter    Kitchen, Garden & Pets    Choppers & Graters    IRICH    195    195    5.0    Summer    0
+
+26    Insulated Hot Fresh Casserole For Roti/Chapati - White    Kitchen, Garden & Pets    Casserole    Cello    659    895    3.3    Winter    236
+
+27    Granola - Happy Berries    Snacks & Branded Foods    Granola & Cereal Bars    Fit & Flex    245    265    3.5    Spring    20
+
+28    Flaxseed - Pesticide Free    Foodgrains, Oil & Masala    Other Dry Fruits    Safe Harvest    53.9    55    4.0    Autumn    1.1
+
+29    Paratha Puff    Snacks & Branded Foods    Frozen Veg Snacks    Switz    90    110    4.3    Summer    20
+
+30    Lip Butter - Rose    Beauty & Hygiene    Lip Care    Organic Harvest    169.15    199    1.5    Winter    29.85
+
+31    Fruit Power - Masala Sugarcane    Beverages    Juices    Real    19    20    2.9    Autumn    1
+
+32    Chocobakes Choc Filled Cookies    Bakery, Cakes & Dairy    Bakery Biscuits, Cookies    Cadbury    102    120    4.2    Summer    18
+
+33    Amber - Deodorant Body Spray    Beauty & Hygiene    Men's Deodorants    Old Spice    211.65    249    3.4    Spring    37.35
+
+34    Green Tea - Tulsi Loose Leaf    Beverages    Green Tea    Octavius    225    225    3.7    Summer    0
+
+35    Pet Solitaire Container Set - Silver    Kitchen, Garden & Pets    Containers Sets    Steelo    499    969    3.9    Winter    470
+
+36    Dhania - Dal    Foodgrains, Oil & Masala    Whole Spices    bb Royal    98    120    4.1    Spring    22
+
+37    Pudina Chutney Masala    Foodgrains, Oil & Masala    Blended Masalas    Catch    46.75    55    3.9    Summer    8.25
+
+38    Bodylicious Deodorant Spray - Mate (For Men)    Beauty & Hygiene    Men's Deodorants    Engage    136.5    195    4.1    Autumn    58.5
+
+39    Sport Deo Spray - Fresh, for Men    Beauty & Hygiene    Men's Deodorants    Engage    112.75    205    3.7    Winter    92.25
+
+40    Choco Deck - Mini Delights    Snacks & Branded Foods    Chocolates    Fabelle    160    200    4.4    Autumn    40
+
+41    Eau De Toilette - Homme Green    Beauty & Hygiene    Eau De Toilette    Colour Me    427.5    450    4.3    Summer    22.5
+
+42    Lemon & Tea Tree Oil Soap    Beauty & Hygiene    Bathing Bars & Soaps    Liril    360    360    4.2    Winter    0
+
+43    Flavoured Cream Wafer Roll - Strawberry    Gourmet & World Food    Cookies, Biscotti, Wafer    Twister    275    275    4.3    Autumn    0
+
+44    Storage/Lunch Steel Container with PP Lid - Red    Kitchen, Garden & Pets    Steel Lunch Boxes    Classic Essentials    109    299    2.6    Spring    190
+
+45    Plain Green Olives    Gourmet & World Food    Olive, Jalapeno, Gherkin    Figaro    179    179    5.0    Summer    0
+
+46    Quinoa - Organic    Foodgrains, Oil & Masala    Organic Rice, Other Rice    Organic Tattva    250    250    3.9    Winter    0
+
+47    After Shave Splash - Arctic Ice    Beauty & Hygiene    Shaving Care    Gillette    459.62    469    3.9    Spring    9.38
+
+48    Colour Catcher Sheets    Cleaning & Household    Imported Cleaners    Dylon     799    799    4.0    Autumn    0
+
+49    Sauce - Sweet & Sour    Gourmet & World Food    Thai & Asian Sauces    Pantai    245    245    3.7    Summer    0
+
+50    Super Hot and Sweet Mango Chutney    Snacks & Branded Foods    Chutney Powder    Spice Story    100    125    3.0    Autumn    25
+
+51    Pani Puri Mix Paste    Foodgrains, Oil & Masala    Cooking Pastes    Mother's Recipe    48.95    55    4.1    Winter    6.05
+
+52    Peach Syrup    Gourmet & World Food    Gourmet Juices & Drinks    Pekers    850    850    4.2    Spring    0
+
+53    Acne & Oil Control Face Wash    Beauty & Hygiene    Face & Body    Red Hunt    80    100    4.0    Summer    20
+
+54    Choco Deck - French Dessert Inspired Layered Bar    Snacks & Branded Foods    Chocolates    Fabelle    56    70    4.0    Winter    14
+
+55    Extra Fine Green Peas    Gourmet & World Food    Beans & Pulses    Daucy    202.5    225    4.5    Autumn    22.5
+
+56    Soothing Cucumber Facial Scrub With Apricot Seeds    Beauty & Hygiene    Face Care    TJORI    299.4    499        Spring    199.6
+
+57    Foochka    Snacks & Branded Foods    Papads, Ready To Fry    Shareat    60    60    3.9    Summer    0
+
+58    Argan-Liquid Gold Hair Spa    Beauty & Hygiene    Hair & Scalp Treatment    Aroma Treasures    199.5    210    4.4    Autumn    10.5
+
+59    Baby Bed Protector - Sublimation Print, Pink    Baby Care    Baby Health    Quick Dry    199    199    3.7    Winter    0
+
+60    Corporate Planner Diary With Premium PU Leather Cover With Card Holder    Cleaning & Household    Notebooks, Files, Folders    Prozo Plus    399    399        Spring    0
+
+61    Atta Chalan - Stainless Steel, Size- No.8    Kitchen, Garden & Pets    Kitchen Tools & Other Accessories    Kvg    149    179    3.5    Summer    30
+
+62    Dog Supplement - Absolute Skin + Coat Tablet    Kitchen, Garden & Pets    Pet Meals & Treats    Drools    348.6    498    4.0    Autumn    149.4
+
+63    Peanut Butter - Creamy, Super    Gourmet & World Food    Chocolate, Peanut Spread    Happilo    209.4    349    4.3    Winter    139.6
+
+64    Sugar Free Petit Beurre - The Taste of France    Snacks & Branded Foods    Marie, Health, Digestive    Bisk Farm    35    35    4.0    Autumn    0
+
+65    Aqua Halo Rejuvenating Conditioner    Beauty & Hygiene    Shampoo & Conditioner    Azafran    168.75    225    1.0    Summer    56.25
+
+66    Ayurvedic Anti-Tan Face Pack    Beauty & Hygiene    Face Care    TJORI    269.4    449        Winter    179.6
+
+67    Dog Supplement - Absolute Calcium Tablet    Kitchen, Garden & Pets    Pet Meals & Treats    Drools    339.15    399    3.9    Autumn    59.85
+
+68    Battery Power Kids Toothbrush - Barbie    Beauty & Hygiene    Electric Toothbrush    Colgate    374.25    499    4.0    Spring    124.75
+
+69    Organic Carom Seeds/Ajwain/Om Kalu    Foodgrains, Oil & Masala    Whole Spices    Earthon    72    72        Summer    0
+
+70    Padded Harness - 3/4 inch, Grey Colour    Kitchen, Garden & Pets    Pet Collars & Leashes    Glenand    840    840        Winter    0
+
+71    Kids Motu Patlu Toothpaste - 2-5 Years, Bubble Fruit Flavour    Beauty & Hygiene    Toothpaste    Colgate    43    43    4.0    Autumn    0
+
+72    Pure & Gentle Face Wash    Beauty & Hygiene    Face Care    Pears    120    150    4.3    Spring    30
+
+73    Sesame Seed Oil    Beauty & Hygiene    Aromatherapy    INATUR     210    300    3.5    Summer    90
+
+74    Til Dil Seeds    Gourmet & World Food    Roasted Seeds & Nuts    Mantra    70    70    3.6    Winter    0
+
+75    Penta Plastic Pet Water Bottle - Green, Wide Mouth    Kitchen, Garden & Pets    Water & Fridge Bottles    BB Home    75    126        Spring    51
+
+76    Acne Pimple Kit For Acne & Pimple Removal    Beauty & Hygiene    Face Care    Natures Essence    500    500    3.0    Autumn    0
+
+77    Disposable Bamboo Wood Skewer/Picker Sticks- For Barbeque, 12 Inch    Kitchen, Garden & Pets    Kitchen Tools & Other Accessories    Bamboooz    135    299    4.3    Summer    164
+
+78    & Moms Bathing Soap - Jasmine    Beauty & Hygiene    Bathing Bars & Soaps    Dettol    108    120    4.6    Spring    12
+
+79    Amla Chatpata Dry Fruit    Gourmet & World Food    Dry Fruits & Berries    Fresho Signature    49    65        Autumn    16
+
+80    Toothbrush Superhero Assorted, Batman/Spiderman    Beauty & Hygiene    Toothbrush    Colgate    49    79    3.9    Winter    30
+
+81    Chips - Topica    Snacks & Branded Foods    Chips & Corn Snacks    Sanjay     65    65    3.9    Spring    0
+
+82    Cup a Soup - Croutons Cream of Asparagus    Gourmet & World Food    Imported Soups    Batchelors    269.1    299        Summer    29.9
+
+83    Organic Dal - Masoor    Foodgrains, Oil & Masala    Organic Dals & Pulses    Pro Nature    96    96    3.9    Autumn    0
+
+84    Strawberry Ice Cream    Gourmet & World Food    Gourmet Ice Cream    Haagen-Dazs    225    225        Winter    0
+
+85    Exo Dishwash Bar- Round 700 gm Box + Pril Dishwash Liquid- Active 2X Lime 225 ml    Cleaning & Household    Dishwash Bars & Powders    bb Combo    95    114        Spring    19
+
+86    Jupiter Water/Juice Glass Tumbler    Kitchen, Garden & Pets    Glassware    BB Home    479    629        Summer    150
+
+87    Cheese - Feta Greek, Block    Gourmet & World Food    International Cheese    Fresho Signature    695.7    773        Autumn    77.3
+
+88    Avida 3-in-1 Semi Economy Pouch -  FG01248    Cleaning & Household    Agarbatti, Incense Sticks    Shalimar    31.5    35    4.6    Winter    3.5
+
+89    Bathing Soap - Sandal & Turmeric    Beauty & Hygiene    Bathing Bars & Soaps    Godrej No.1    254.15    299    4.2    Spring    44.85
+
+90    Sweet Corn Kernels - Chipotle    Fruits & Vegetables    Cut & Peeled Veggies    Supa Corn    55    55        Summer    0
+
+91    Ashwagandha Tablets    Beauty & Hygiene    Ayurveda    Muniyal Ayurveda    120    120        Winter    0
+
+92    Hard Anodised Ezee-Pour Saucepan With Lid - L88    Kitchen, Garden & Pets    Tawa & Sauce Pan    Hawkins Futura    864.5    910    4.6    Autumn    45.5
+
+93    Topp Up Milk - Elaichi    Bakery, Cakes & Dairy    Flavoured, Soya Milk    Gowardhan    80.01    90    5.0    Spring    9.99
+
+94    Namkeen - Madras Mixture    Snacks & Branded Foods    Namkeen & Savoury Snacks    Townbus    10    10    4.1    Winter    0
+
+95    Stainless Steel Storage Lunch Container - Flat, Carry Snack Pack    Kitchen, Garden & Pets    Steel Storage Containers    Ramson    129    249    1.5    Summer    120
+
+96    Oceans Deodorant for Men - Long Lasting & Fresh Aquatic Fragrance    Beauty & Hygiene    Men's Deodorants    Brut    179.4    299    4.0    Spring    119.6
+
+97    Hair Remover Spray - Foam Lemon    Beauty & Hygiene    Hair Removal    Dimples    1200    1200        Autumn    0
+
+98    Mr. Magic Powder-To-Liquid Germ Protection Handwash Empty Bottle + Refill    Beauty & Hygiene    Hand Wash & Sanitizers    Godrej Protekt    32.55    35    4.4    Winter    2.45
+
+99    Frankincense Oil    Beauty & Hygiene    Aromatherapy    Organic Harvest    258.75    345    3.7    Summer    86.25
+
+100    Wonder Diaper Pants - Xtra Large, 12-17 Kg    Baby Care    Diapers    Huggies    1266.38    1398    4.0    Spring    131.62
+
+
+----------------------------------------------------------------------
+
+The Products list of a Store in a Month
+
+    SNo                                            Product  \
+0     1             Garlic Oil - Vegetarian Capsule 500 mg   
+1     2                              Water Bottle - Orange   
+2     3                     Brass Angle Deep - Plain, No.2   
+3     4  Cereal Flip Lid Container/Storage Jar - Assort...   
+4     5                 Creme Soft Soap - For Hands & Body   
+..  ...                                                ...   
+95   96  Oceans Deodorant for Men - Long Lasting & Fres...   
+96   97                    Hair Remover Spray - Foam Lemon   
+97   98  Mr. Magic Powder-To-Liquid Germ Protection Han...   
+98   99                                   Frankincense Oil   
+99  100         Wonder Diaper Pants - Xtra Large, 12-17 Kg   
+
+                  Category                      Type             Brand  \
+0         Beauty & Hygiene          Hair Oil & Serum  Sri Sri Ayurveda   
+1   Kitchen, Garden & Pets    Water & Fridge Bottles        Mastercook   
+2     Cleaning & Household           Lamp & Lamp Oil               Trm   
+3     Cleaning & Household  Laundry, Storage Baskets            Nakoda   
+4         Beauty & Hygiene      Bathing Bars & Soaps             Nivea   
+..                     ...                       ...               ...   
+95        Beauty & Hygiene          Men's Deodorants              Brut   
+96        Beauty & Hygiene              Hair Removal           Dimples   
+97        Beauty & Hygiene    Hand Wash & Sanitizers    Godrej Protekt   
+98        Beauty & Hygiene              Aromatherapy   Organic Harvest   
+99               Baby Care                   Diapers           Huggies   
+
+    CostPrice  SellingPrice Rating Seasons  Profit  
+0      220.00           220    4.1  Summer    0.00  
+1      180.00           180    2.3  Winter    0.00  
+2      119.00           250    3.4  Autumn  131.00  
+3      149.00           176    3.7  Spring   27.00  
+4      162.00           162    4.4  Winter    0.00  
+..        ...           ...    ...     ...     ...  
+95     179.40           299    4.0  Spring  119.60  
+96    1200.00          1200         Autumn    0.00  
+97      32.55            35    4.4  Winter    2.45  
+98     258.75           345    3.7  Summer   86.25  
+99    1266.38          1398    4.0  Spring  131.62  
+
+[100 rows x 10 columns]
+
+----------------------------------------------------------------------
+
+The Store has 47 products which has rating above 4.0
+
+
+
+----------------------------------------------------------------------
